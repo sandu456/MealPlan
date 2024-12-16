@@ -1,0 +1,82 @@
+/* App Container */
+.app-container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+  background-color: #d6728c;
+  color: #000;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+header nav a {
+  color: #000;
+  margin-left: 1rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Main Content */
+.main-content {
+  background-color: #fffdf0;
+  padding: 2rem 0;
+}
+
+.headline {
+  color: #333;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.category-buttons button {
+  margin: 0.5rem;
+  background-color: #f2c2d3;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.category-buttons button:hover {
+  background-color: #e8a5bf;
+}
+
+.auth-buttons {
+  margin-top: 1.5rem;
+}
+
+.auth-buttons button {
+  margin: 0 0.5rem;
+  padding: 0.6rem 1.2rem;
+  background-color: #d6728c;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.auth-buttons button.signup {
+  background-color: #f2c2d3;
+  color: #333;
+}
+
+/* Footer */
+footer {
+  background-color: #d6728c;
+  color: #fff;
+  padding: 1rem;
+  position: relative;
+  bottom: 0;
+  text-align: center;
+  font-size: 0.9rem;
+}
